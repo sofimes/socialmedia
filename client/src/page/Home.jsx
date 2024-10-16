@@ -1,11 +1,21 @@
 import { useContext } from "react";
 import { AppState } from "../App";
+import classes from "../style/home.module.css";
+import LeftsideBar from "./LeftsideBar";
+import Topbar from "./Topbar";
+import RightsideBar from "./RightsideBar";
+import CreatePost from "./CreatePost";
 const Home = () => {
   const { user } = useContext(AppState);
   return (
-    <div>
-      <h1>{user.username}</h1>;<h1>hello</h1>
-    </div>
+    <>
+      <Topbar />
+      <div className={classes.dashboard}>
+        <LeftsideBar />
+        <CreatePost />
+        <RightsideBar />
+      </div>
+    </>
   );
 };
 

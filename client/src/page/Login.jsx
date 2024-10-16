@@ -3,6 +3,7 @@ import classes from "../style/login.module.css";
 import axios from "../axios";
 import { useNavigate } from "react-router-dom";
 import { Link } from "react-router-dom";
+import loginImage from "../images/loginside.jpg";
 const Login = () => {
   const navigate = useNavigate();
   const emailDom = useRef();
@@ -40,7 +41,7 @@ const Login = () => {
     setErrorMessage("");
   };
   return (
-    <section>
+    <section className={classes.wrap}>
       <div className={classes.wrapper}>
         <form action="#" onSubmit={loginHandler}>
           <h2>Login</h2>
@@ -85,7 +86,6 @@ const Login = () => {
           </div>
         </form>
       </div>
-      ;
     </section>
   );
 };

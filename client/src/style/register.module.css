@@ -8,30 +8,17 @@
 }
 
 body {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  min-height: 100vh;
-  width: 100%;
   padding: 0 10px;
-}
-
-body::before {
-  content: "";
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  background: url("../images/login.jpg"), #000;
-  background-position: center;
-  background-size: cover;
+  background-color: #000;
 }
 
 .wrapper {
+  margin: 100px auto;
   width: 400px;
   border-radius: 8px;
   padding: 30px;
   text-align: center;
-  border: 1px solid rgba(255, 255, 255, 0.5);
+  border: 1px solid rgba(17, 251, 204, 0.886);
   backdrop-filter: blur(8px);
   -webkit-backdrop-filter: blur(8px);
 }
@@ -46,12 +33,14 @@ form {
 h2 {
   font-size: 2rem;
   margin-bottom: 20px;
-  color: #fff;
+  /* color: #fff; */
+
+  color: rgba(17, 251, 204, 0.886);
 }
 
 .inputfield {
   position: relative;
-  border-bottom: 2px solid #ccc;
+  border-bottom: 2px solid rgba(17, 251, 204, 0.886);
   margin: 15px 0;
 }
 
@@ -60,7 +49,8 @@ h2 {
   top: 50%;
   left: 0;
   transform: translateY(-50%);
-  color: #fff;
+  /* color: #fff; */
+  color: rgba(17, 251, 204, 0.886);
   font-size: 16px;
   pointer-events: none;
   transition: 0.15s ease;
@@ -73,7 +63,8 @@ h2 {
   border: none;
   outline: none;
   font-size: 16px;
-  color: #fff;
+  /* color: #fff; */
+  color: rgba(182, 253, 239, 0.886);
 }
 
 .inputfield input:focus ~ label,
@@ -88,11 +79,12 @@ h2 {
   align-items: center;
   justify-content: space-between;
   margin: 25px 0 35px 0;
-  color: #fff;
+  /* color: #fff; */
+  color: rgba(182, 253, 239, 0.886);
 }
 
 #remember {
-  accent-color: #fff;
+  accent-color: rgba(42, 244, 203, 0.886);
 }
 
 .forget label {
@@ -105,7 +97,8 @@ h2 {
 }
 
 .wrapper a {
-  color: #efefef;
+  /* color: #efefef; */
+  color: rgba(42, 244, 203, 0.886);
   text-decoration: none;
 }
 
@@ -114,7 +107,8 @@ h2 {
 }
 
 button {
-  background: #fff;
+  /* background: #fff; */
+  background: #0fdeb5;
   color: #000;
   font-weight: 600;
   border: none;
@@ -128,14 +122,17 @@ button {
 
 button:hover {
   color: #fff;
-  border-color: #fff;
-  background: rgba(255, 255, 255, 0.15);
+  /* border-color: #fff;
+   */
+  border-color: #0fdeb5;
+  background: rgba(66, 169, 197, 0.15);
 }
 
 .Login {
   text-align: center;
   margin-top: 30px;
-  color: white;
+  /* white */
+  color: #9bdfd1;
 }
 .register {
   text-align: center;

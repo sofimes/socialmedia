@@ -4,7 +4,6 @@ import Login from "./page/Login";
 import Register from "./page/Register";
 import { Route, Routes, useNavigate } from "react-router-dom";
 import axios from "./axios";
-
 export const AppState = createContext();
 function App() {
   const [user, setUser] = useState({});

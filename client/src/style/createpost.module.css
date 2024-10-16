@@ -1,0 +1,75 @@
+.CreatePost {
+  width: 50%;
+}
+
+.logo h1 {
+  margin: 5px 0px 0px 5px;
+  text-align: center;
+  padding-bottom: 30px;
+}
+.imlo {
+  margin-top: 22px;
+}
+.logo {
+  display: flex;
+  justify-content: flex-start;
+  color: #9c6643;
+  margin: 50px 0px 15px 100px;
+}
+textarea {
+  width: 90%;
+  height: 200px;
+  padding: 12px 20px;
+  margin-left: 80px;
+  box-sizing: border-box;
+  border: 1px solid rgba(17, 251, 204, 0.886);
+  border-radius: 4px;
+  background-color: rgba(66, 169, 197, 0.15);
+  font-size: 16px;
+  resize: both;
+  color: rgba(182, 253, 239, 0.886);
+}
+.CreatePost label {
+  margin-left: 80px;
+  margin-bottom: 15px;
+  font-size: 25px;
+  /* color: rgba(182, 253, 239, 0.886); */
+  color: #9c6643;
+}
+.postcontainer {
+  margin-top: 35px;
+}
+.addpost {
+  background-color: rgba(66, 169, 197, 0.15);
+  margin: 12px 80px;
+  padding: 10px 20px;
+  border-radius: 4px;
+  height: 400px;
+  border: 1px solid rgba(17, 251, 204, 0.886);
+}
+.addpost h3 {
+  margin: 0px 20% 5px 40%;
+  color: rgba(182, 253, 239, 0.886);
+}
+.addpost h5 {
+  margin: 0px 20% 0px 43%;
+  color: rgba(182, 253, 239, 0.886);
+}
+.addpost button {
+  border: 1px solid transparent;
+  margin: 35px 20% 0px 35%;
+  width: 200px;
+  color: #9c6643;
+}
+.postlogo {
+  margin: 10% 20% 5px 45%;
+  align-items: center;
+  color: rgba(53, 92, 84, 0.886);
+}
+@media (max-width: 800px) {
+  .CreatePost {
+    position: relative;
+    bottom: auto;
+    width: 100%;
+  }
+}
